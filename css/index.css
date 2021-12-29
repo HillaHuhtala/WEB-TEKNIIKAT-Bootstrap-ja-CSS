@@ -1,0 +1,19 @@
+/*Author: Hilla Huhtala*/
+/*font-family: 'Fredericka the Great', cursive;
+font-family: 'Waterfall', cursive;*/
+
+body {
+    background-image: url("../images/backround_frontpage.jpg");
+}
+
+@media only screen and (max-width: 576px) {
+    #navigointipalkki_otsikko, #navigointipalkki_alaotsikko{
+        display: none;
+    }
+}
+
+@media only screen and  (min-width: 1200px) {
+    #navigointipalkki_otsikko, #navigointipalkki_alaotsikko{
+        display: none;
+    }
+}
