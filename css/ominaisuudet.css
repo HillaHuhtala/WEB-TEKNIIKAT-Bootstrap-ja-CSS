@@ -13,6 +13,11 @@ body {
     background-size: auto;
 }
 
+ #empty_space{
+    font-size: 70px;
+    visibility: hidden;
+ }
+
 .row {
     margin:0px;
 }
@@ -56,10 +61,6 @@ body {
 }
 
 @media only screen and  (min-width: 1200px) {   
-    #navigointipalkki_otsikko, #navigointipalkki_alaotsikko{
-        display: none;
-    }
-    
     .content {
         background-image: url("../images/backround_frontpage4.png");
         background-size: contain;
@@ -167,6 +168,22 @@ body {
 }
 
 /*SISÄLLÖN TYYLITTELY*/
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:15px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    
+}
+
+.accordion show {
+    display: block;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
 #sisalto {
     color: white;
     display: flex;

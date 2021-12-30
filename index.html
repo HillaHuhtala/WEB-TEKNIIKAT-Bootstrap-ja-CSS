@@ -23,7 +23,7 @@
 
 <body>
     <!--Content-->
-    <div class="content">
+    <div class="content" id="content">
     <!--NAVINGOINTI-->
         <div class="row" id="navigointi">
             <nav class="navbar navbar-expand-xl navbar-light">
@@ -34,6 +34,7 @@
                             class="navbar-toggler-icon"></span></button>
                     <span class="navbar-text px-3" id="navigointipalkki_otsikko">
                         <h1 class="text-center">Suomenhevonen</h1>
+                        <hr style="height: 1px; color: #151e1b; border-radius: 2px; opacity: 80%; margin:1px;">
                         <p class="text-center">sotiemme unohdettu sankari</p>
                     </span>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,9 +56,6 @@
                             </li>
                         </ul>
                     </div>
-                    <span class="navbar-brand">
-                        <img src="/images/icon.png" alt="" width="85">
-                    </span>
                 </div>
             </nav>
         </div>
@@ -75,7 +73,7 @@
 
         <!--SISÄLTÖ-->
         <div class="row" id="sisalto">
-            <div class="col-xl-6">
+            <div class="col-xl-6 mx-20">
                 <p class="text-center">Hautalöytöjen perusteella hevosia on ollut Suomen alueella jo keskirautakaudella, mutta näiden hevosten
                     alkuperää ei tunneta. Suomenhevonen ja sitä edeltänyt suomalainen maatiaishevoskanta oli kuitenkin
                     Suomen ainoa hevosrotu vuosisatojen ajan, joten Suomen hevoshistoria on ylipäätään miltei sama kuin
@@ -99,17 +97,16 @@
             </div>
         </div>
     </div>
-    <div class="row" id="footer">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center">
-                <div class="col-12 d-flex align-items-center">
-                    <span class="text-muted">© Hilla Huhtala 2021</span>
-                </div>
-            </div>
-    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center">
+        <div class="col-12 d-flex align-items-center">
+            <span class="text-muted">© Hilla Huhtala 2021</span>
+        </div>
+    </footer>
         <!--Bootstrap Bundle & Javascript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
