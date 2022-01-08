@@ -65,6 +65,7 @@ body {
         background-size: contain;
         background-position: right bottom;
         background-repeat: no-repeat;
+        min-height: 1041px;
     }
 
     #header{
@@ -170,17 +171,20 @@ body {
 #sisalto {
     color: white;
     display: flex;
+   
 }
 
 #sisalto p {
     margin-top: 30px;
     font-size: 22px;
+    text-shadow: black 1px 1px 5px;
 }
 
 #sisalto h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
-    margin: 15px;
+    margin: 15px; 
+    text-shadow: black 1px 1px 5px;
 }
 
 .btn {
@@ -196,8 +200,7 @@ body {
 
 /*FOOTER*/
 footer {
+    margin-top: 100px;
     min-height: 50px;
     background-color: rgba(255, 255, 255, 0.6);
-    position: static;
-    bottom: 0px;
 }
