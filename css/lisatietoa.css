@@ -175,7 +175,7 @@ body {
 }
 
 /*SISÄLLÖN TYYLITTELY*/
-.container-fluid#content-box {
+.sisalto-boksi#content-box {
     background-color: rgba(255, 255, 255, 0.6);
     padding:15px;
     margin-bottom: 30px;
@@ -185,7 +185,7 @@ body {
     
 }
 
-.container-fluid img {
+.sisalto-boksi img {
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -201,12 +201,15 @@ body {
     font-size: 22px;
 }
 
-#sisalto h2 {
+h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
     margin: 15px;
     color: white;
     text-shadow: black 1px 1px 5px;
+}
+
+h2#otsikko1 {
+    font-size: 40px;
 }
 
 .accordion#ominaisuudet{
